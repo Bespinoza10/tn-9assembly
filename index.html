@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>TN-9 Assembly</title>
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link rel="stylesheet" type="text/css" href="bower_components/foundation/css/foundation.css">
+    <link rel="stylesheet" type="text/css" href="bower_components/slick.js/slick/slick.css">
+    <link rel="stylesheet" type="text/css" href="bower_components/slick.js/slick/slick-theme.css">
+  </head>
+  <body>
+    <div class="fixed">
+      <nav class="top-bar" data-topbar role="navigation">
+        <ul class="title-area">
+          <li class="name">
+            <a href="#"><img class="logo" src="img/title-logo.png"></a>
+          </li>
+           <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+          <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+        </ul>
+
+        <section class="top-bar-section">
+          <!-- Right Nav Section -->
+          <ul class="right">
+            <li class="active"><a href="#">Right Button Active</a></li>
+            <li class="has-dropdown">
+              <a href="#">Right Button Dropdown</a>
+              <ul class="dropdown">
+                <li><a href="#">First link in dropdown</a></li>
+                <li class="active"><a href="#">Active link in dropdown</a></li>
+              </ul>
+            </li>
+          </ul>
+
+        <!-- Left Nav Section -->
+
+        </section>
+      </nav>
+    </div>
+
+    <div class="lage-12 columns entrada">
+      <div class="fade elSlide">
+        <div>
+          <img src="img/NY%20lightning.jpg">
+        </div>
+        <div>
+          <img src="img/TrioTBD.jpg">
+        </div>
+        <div>
+          <img src="img/beautifulwflwr.jpg">
+        </div>
+        <div>
+          <img src="img/NY%20lightning.jpg">
+        </div>
+      </div>
+    </div>
+    <div class="large-12 columns sliderOrbit">
+      <div class="large-8 large-centered columns">
+        <ul class="example-orbit" data-orbit>
+  <!--
+          <li>
+            <img src="img/fechaAssembly.png" alt="slide 1" />
+
+          </li>
+          <li class="active ">
+            <img src="img/fechaAssembly2.png" alt="slide 2" />
+          </li>
+  -->
+          <li class="active ">
+            <img src="img/fechaAssembly6.png" alt="slide 3" />
+          </li>
+        </ul>
+      </div>
+    </div>
+
+
+  <!--   REAL BODY STARTS -->
+
+    <div class="large-12 large-centered columns">
+      <div class="row info">
+        <h1 class="h1s">Bienvenidos!</h1>
+        <div class="large-3 columns info ">
+          <a href="#" data-reveal-id="salon"><img class="squareIMGS" src="img/salonAsamblea.png"></a>
+        </div>
+        <div class="large-3 columns asamb info">
+          <a href="#" data-reveal-id="hoteles"><img class="squareIMGS" src="img/HOTEL.png"></a>
+        </div>
+        <div class="large-3 columns asamb info">
+          <img class="squareIMGS" src="img/restaurantes.png">
+        </div>
+      </div>
+    </div>
+    <div class="row">
+
+      <hr class="center">
+    <div class="large-12 columns">
+      <h4 class="h1s">TN-9 Circuito</h4>
+    </div>
+    </div>
+
+  <!--   SQUARES MODALS -->
+
+
+    <div id="salon" class="reveal-modal" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
+      <h2 class="h1s" id="modalTitle">Salon De Asamblea</h2>
+      <div class="large-10 large-centered columns">
+        <img src="img/VBCmodal.png">
+      </div>
+      <div class="large-10 columns modalAsamb">
+        <h2 class="h1s">Fecha:</h3> <p class="parragraphs">Junio 26-28</p>
+        <h2 class="h1s">Horario:</h3> <p class="parragraphs">Las puertas se abriran a las 8 a.m.</p>
+        <h2 class="h1s">Recordatorios:</h3> <p class="parragraphs">Para ver los recordatorios busque el Ministerio del Reino de Abril de 2015 o visite el sitio <a href="http://www.jw.org/es/publicaciones/ministerio-del-reino/">http://www.jw.org/es/publicaciones/ministerio-del-reino/</a> para descargar el Ministerio del Reino.</p>
+        <h2 class="h1s">Programa: </h2>
+        <a href="#" data-reveal-id="programa"><p> Descargar el Programa de la Asamblea</p></a>
+  <!--
+        <div class="flex-video">
+          <iframe width="80%" height="80%" src="img/CO-pgm15_S.pdf" frameborder="0" allowfullscreen></iframe>
+        </div>
+  -->
+      </div>
+      <a class="close-reveal-modal" aria-label="Close">&#215;</a>
+    </div>
+
+  <!--        LISTA DE HOTELES        -->
+    <div id="hoteles" class="reveal-modal" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
+      <h2 class="h1s" id="modalTitle">Lista de Hoteles</h2>
+
+      <div class="flex-video">
+        <iframe width="100%" height="100%" src="img/CO-pgm15_S.pdf" frameborder="0" allowfullscreen></iframe>
+      </div>
+
+
+      <a class="close-reveal-modal" aria-label="Close">&#215;</a>
+    </div>
+
+  <!--      PROGRAMA      -->
+
+    <div id="programa" class="reveal-modal" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
+      <h2 class="h1s" id="modalTitle">Programa: </h2>
+
+      <div class=" large-10 large-centered columns flex-video program">
+          <iframe width="100%" height="100%" src="img/CO-pgm15_S.pdf" frameborder="0" allowfullscreen></iframe>
+      </div>
+
+      <a class="close-reveal-modal" aria-label="Close">&#215;</a>
+    </div>
+
+  </body>
+
+
+  <script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
+  <script type="text/javascript" src="bower_components/foundation/js/foundation.min.js"></script>
+  <script type="text/javascript" src="bower_components/slick.js/slick/slick.min.js"></script>
+  <script>
+    $(document).foundation();
+  </script>
+  <script>
+    $('.fade').slick({
+      autoplay: true,
+      autoplaySpeed: 2000,
+      dots: true,
+      infinite: true,
+      speed: 500,
+      fade: true,
+      cssEase: 'linear'
+    });
+
+  </script>
+</html>
