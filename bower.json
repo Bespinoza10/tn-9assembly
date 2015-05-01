@@ -1,0 +1,22 @@
+{
+  "name": "tn-9assembly",
+  "version": "1.0.0",
+  "homepage": "https://github.com/Bespinoza10/tn-9assembly",
+  "authors": [
+    "Brandon Espinoza <espinozab100@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "foundation": "~5.5.1",
+    "jquery": "~2.1.4",
+    "slick.js": "~1.5.2",
+    "angular-route": "~1.3.15"
+  }
+}
