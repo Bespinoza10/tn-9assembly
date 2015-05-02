@@ -23,6 +23,28 @@
   height: 75px;
 }
 
+.navlinks{
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 20px;
+  color: #fff;
+}
+
+.navlinks:hover{
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 20px;
+  color: #fff;
+}
+
+.navlis{
+  margin-top: 10px;
+  margin-right: 50px;
+}
+
+.navlis:hover{
+  border-left: 2px solid;
+  border-right: 2px solid;
+  border-color: #fff;
+}
 
 /****************************
 *********** BODY **********
